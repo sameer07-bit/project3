@@ -7,28 +7,68 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+  <><h1>📘 Weekly Class Schedule</h1><table>
+      <thead>
+        <tr>
+          <th>DAY</th>
+          <th>SUBJECT 1</th>
+          <th>SUBJECT 2</th>
+          <th>SUBJECT 3</th>
+          <th>TIME</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>MONDAY</td>
+          <td>DDCA</td>
+          <td>JAVA DSA</td>
+          <td>FEDFUI</td>
+          <td>7:10 AM – 12:50 PM</td>
+        </tr>
+
+        <tr>
+          <td>TUESDAY</td>
+          <td>MATHS</td>
+          <td>JAVA DSA</td>
+          <td>FEDFUI</td>
+          <td>7:10 AM – 12:50 PM</td>
+        </tr>
+
+        <tr>
+          <td>WEDNESDAY</td>
+          <td>ENGLISH</td>
+          <td>DDCA</td>
+          <td>MATHS</td>
+          <td>7:10 AM – 12:50 PM</td>
+        </tr>
+
+        <tr>
+          <td>THURSDAY</td>
+          <td>FEDFUI</td>
+          <td>DDCA</td>
+          <td>ENGLISH</td>
+          <td>7:10 AM – 12:50 PM</td>
+        </tr>
+
+        <tr>
+          <td>FRIDAY</td>
+          <td>JAVA DSA</td>
+          <td>DDCA</td>
+          <td>ENGLISH</td>
+          <td>7:10 AM – 12:50 PM</td>
+        </tr>
+
+        <tr>
+          <td>SATURDAY</td>
+          <td>MATHS</td>
+          <td>FEDFUI</td>
+          <td>JAVA DSA</td>
+          <td>7:10 AM – 12:50 PM</td>
+        </tr>
+      </tbody>
+    </table></>
+
   )
 }
 

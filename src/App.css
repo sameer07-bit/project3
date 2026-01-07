@@ -1,42 +1,49 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  background-color: #f6f1eb; /* cream background */
+  font-family: "Segoe UI", sans-serif;
   text-align: center;
+  padding: 30px;
+  color: #4a3b2a;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1 {
+  margin-bottom: 25px;
+  color: #5a4634;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 1100px;
+  background-color: #fffaf3;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+thead {
+  background-color: #c8b08a; /* beige-brown */
 }
 
-.card {
-  padding: 2em;
+th {
+  padding: 16px;
+  color: #3b2f23;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
-.read-the-docs {
-  color: #888;
+td {
+  padding: 15px;
+  border-bottom: 1px solid #e4d8c8;
+  color: #4a3b2a;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f3ebe1;
+}
+
+tbody tr:hover {
+  background-color: #e8dbc8;
+  transition: 0.3s ease;
 }
