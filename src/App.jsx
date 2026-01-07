@@ -22,7 +22,7 @@ function App() {
         <tr>
           <td>MONDAY</td>
           <td>DDCA</td>
-          <td>JAVA DSA</td>
+          <td>DSA</td>
           <td>FEDFUI</td>
           <td>7:10 AM – 12:50 PM</td>
         </tr>
@@ -30,22 +30,22 @@ function App() {
         <tr>
           <td>TUESDAY</td>
           <td>MATHS</td>
-          <td>JAVA DSA</td>
+          <td>DSA</td>
           <td>FEDFUI</td>
           <td>7:10 AM – 12:50 PM</td>
         </tr>
 
         <tr>
           <td>WEDNESDAY</td>
-          <td>ENGLISH</td>
+          <td>DSA</td>
           <td>DDCA</td>
-          <td>MATHS</td>
+          <td>ENGLISH</td>
           <td>7:10 AM – 12:50 PM</td>
         </tr>
 
         <tr>
           <td>THURSDAY</td>
-          <td>FEDFUI</td>
+          <td>DSA</td>
           <td>DDCA</td>
           <td>ENGLISH</td>
           <td>7:10 AM – 12:50 PM</td>
@@ -53,9 +53,9 @@ function App() {
 
         <tr>
           <td>FRIDAY</td>
-          <td>JAVA DSA</td>
-          <td>DDCA</td>
-          <td>ENGLISH</td>
+          <td>MATHS</td>
+          <td>FEDFUI</td>
+          <td>DSA</td>
           <td>7:10 AM – 12:50 PM</td>
         </tr>
 
@@ -63,7 +63,7 @@ function App() {
           <td>SATURDAY</td>
           <td>MATHS</td>
           <td>FEDFUI</td>
-          <td>JAVA DSA</td>
+          <td>DSA</td>
           <td>7:10 AM – 12:50 PM</td>
         </tr>
       </tbody>
